@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-box {
+  display: flex;
+  justify-content: center;
+}
+
+.list-cell, form-cell {
+  flex: 1;
+  justify-content: space-around;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
