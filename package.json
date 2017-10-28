@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "mysql-import": "mysql -h 127.0.0.1 -u root -p < storeDB.sql"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
